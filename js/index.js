@@ -4,7 +4,7 @@ $(()=>{
 		'2048/2048.html',
 		'elousi/tetris.html'
 	]
-	var leftBoxHeigh=document.body.scrollHeight;
+	var leftBoxHeigh=document.documentElement.clientHeight;
 	$('#left').css({
 		'height':(leftBoxHeigh-60)+'px',
 		'width':'200px',
