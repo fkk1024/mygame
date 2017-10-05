@@ -1,2 +1,1 @@
-# mygame
-我的游戏
+# text
